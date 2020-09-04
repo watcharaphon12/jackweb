@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap" rel="stylesheet">   
+     <link rel="stylesheet" href="/css/style.css">
+     <link rel="stylesheet" href="/css/style-main.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            var str1=[];
+            str1[0]="<a href=\"#\">ธรรมชาติ</a>";
+            str1[1]="<a href=\"#\">สัตว์</a>";
+            str1[2]="<a href=\"#\">ภูเขา</a>";
+            str1[3]="<a href=\"#\">ทะเล</a>";
+            str1[4]="<a href=\"#\">เมือง</a>";
+            str1[5]="<a href=\"#\">ผู้คน</a>";
+            str1[6]="<a href=\"#\">อวกาศ</a>";
+            str1[7]="<a href=\"#\">รถยนต์</a>";
+            str1[8]="<a href=\"#\">สี</a>";
+            
+        </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="menubar">
+        <div class="casolor">
+        <ul class="logo"> 
+            <a href="index.html"><img src="/img/logo.png" width="50px" height="50px" ></a></ul>
+         <ul class="menu"  >
+       
+       <li>
+           <a href="login.html">เข้าสู่ระบบ</a><br></li>
+        <li> 
+           <a href="singup.html">สมัครบัญชี</a><br> </li>
+           <li> 
+            <a href="aboutme.html">เกี่ยวกับเรา</a><br> </li>
+        </ul>
+        
+        </div>
+    </div>
+    <header class="header_area">
+        <div class="header_in">
+            <script>
+                for(var i=0;i<str1.length;i++){
+                    document.write(""+str1[i]+""+" ");
+                }
+
+
+            </script>
+
+        </div>
+
+    </header>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap" rel="stylesheet">   
+     <link rel="stylesheet" href="/css/style.css">
+     <link rel="stylesheet" href="/css/style-register.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+    <style>
+    h1{text-align:center;}
+</style>
+<!--javascrip-->
+<script>
+    function cancel(){
+        var can=confirm("ต้องการออกจากหน้านี้หรือไม่");
+
+        if(can==true){
+            window.location.href="index.html"; 
+            }else{
+                 
+            }
+    }
+</script>
+</head>
+<body>
+
+    <div class="menubar">
+        <div class="casolor">
+        <ul class="logo"> 
+        <a href="index.html"><img src="/img/logo.png" width="50px" height="50px" ></a></ul>
+         <ul class="menu"  >
+       
+       <li>
+           <a href="login.html">เข้าสู่ระบบ</a><br></li>
+        <li> 
+           <a href="law.html">นโยบายลิขสิทธิ์</a><br> </li>
+           <li> 
+            <a href="aboutme.html">เกี่ยวกับเรา</a><br> </li>
+        </ul>
+        
+        </div>
+    </div>
+    <header>
+
+    </header>
+    <div class="register_area">
+        <br><h1>กรุณากรอกข้อมูล</h1><br>
+    <div class="register">
+        
+        <form action="" method="GET">
+           
+    
+    ชื่อผู้ใช้ :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;<input class="rcorners4" name="Username"><br><br>
+    รหัสผ่าน :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;<input class="rcorners4" name="Password" type="password"><br><br>
+    ยืนยันรหัสผ่าน :&nbsp;&nbsp;<input class="rcorners4" name="Confirm" value="password" type="password"><br><br>
+    เมลล์ :&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="rcorners4" name="Email"><br><br>
+    เบอร์โทร :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="rcorners4" name="Phone"><br>
+    <button class="buttom_regis buttom"  onclick="alert('Hello')">OK</button>
+
+        <button class="buttom_regis buttom" type="button" onclick="cancel()">CANCEL</button>
+
+</form>
+</div>
+</div>
+
+</body>
+</html>

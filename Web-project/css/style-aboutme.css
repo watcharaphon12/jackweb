@@ -1,0 +1,12 @@
+.about_area{
+    width: 700px;
+    height: 700px;
+    background: wheat;
+    margin-top: 20px;
+    margin-left: 300px;
+    
+}
+.about_in{
+    text-align: center;  
+    padding-top: 20px;
+}

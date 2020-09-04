@@ -1,0 +1,21 @@
+.header_area{
+    height: 300px;
+    width: 90%;
+    background: cornsilk;
+    margin-top: 10px;
+    margin-left: 80px;
+    border-radius: 10px 10px 10px 10px;
+}
+.header_in{
+    padding: 20px;
+}
+.header_in a{
+    margin-left: 30px;
+    
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+    background: chocolate;
+    
+    border-radius: 10px 10px 10px 10px;
+}
